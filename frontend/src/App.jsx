@@ -1,12 +1,12 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
-import Header from "./components/Header";
+import Header from "./components/Header/Header";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import Services from "./components/Services";
 import Contact from "./components/Contact";
+import Introduction from "./components/Introduction";
+import Help from "./components/Help";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -14,6 +14,8 @@ function App() {
   return (
     <>
       <Header/>
+      <Introduction/>
+      <Help/>
       <About/>
       <Services/>
       <Contact/>
