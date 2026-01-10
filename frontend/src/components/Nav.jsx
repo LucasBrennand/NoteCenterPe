@@ -1,7 +1,7 @@
 function Nav() {
   return (
-    <nav className="flex flex-row text-white">
-      <ul className="flex flex-row bg-transparent gap-6">
+    <nav className="flex-col items-center flex md:flex-row text-white">
+      <ul className="flex-col items-center flex md:flex-row bg-transparent gap-6">
         <li>
           <a
             className="bg-transparent hover:text-amber-200 duration-200 hover:text-2xl"
