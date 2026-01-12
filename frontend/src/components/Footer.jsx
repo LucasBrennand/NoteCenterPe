@@ -1,7 +1,7 @@
 
 function Footer(){
     return(
-        <footer className="relative text-center bottom-0 w-full text-white">
+        <footer className="absolute text-center bottom-0 w-full text-white">
             <p>©2026 Notecenterpe</p>
         </footer>
     )
